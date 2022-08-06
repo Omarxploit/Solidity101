@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "myUnit",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "Unit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"addr()": {
+					"notice": "immutable are like constants but the values they hold are set inside a constructor and cant be modified afterwards*"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Variables/immutables.sol": "immutables"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Variables/immutables.sol": {
+			"keccak256": "0x415f242f2411c03b2ba5d24c810e23ffd87ee9b581ac7bc55fc881a5a5101b8a",
+			"license": "Mit",
+			"urls": [
+				"bzz-raw://04e0028234504e83100ffa3cc6a225f57176d5caa9ec0dd093e305464ebc2c5d",
+				"dweb:/ipfs/QmVnBHotzmcaHhM6jxtXAQ1EpCqaNgZ6wk9G6u82DD9iRL"
+			]
+		}
+	},
+	"version": 1
+}
