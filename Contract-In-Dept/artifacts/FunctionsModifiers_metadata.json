@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contract-In-Dept/FunctionsModifiers.sol": "FunctionsModifiers"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contract-In-Dept/FunctionsModifiers.sol": {
+			"keccak256": "0xdabd151082180acac11e67157004f69a46d9b787c97b3b98f55734f530b05954",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b673c8a96cda5a52c84e481343baebf249b15242006f90ee7b9c917a17458017",
+				"dweb:/ipfs/Qmd5hox5TponmpKDBApt8MrcMkYSk5gBVVi8mdYBEbvoWi"
+			]
+		}
+	},
+	"version": 1
+}

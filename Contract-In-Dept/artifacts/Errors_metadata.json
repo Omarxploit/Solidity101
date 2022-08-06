@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "unauthorized",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "buy",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contract-In-Dept/Errors.sol": "Errors"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contract-In-Dept/Errors.sol": {
+			"keccak256": "0x32898cff1e6f28bce5f57f2a0561c75351c7da8d3fd9629bdc169ea999bf5fb9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1d4ae83fea6cc8fb48ed8d9f11d36bb766f0a5bb31535f75b29015194e32ffff",
+				"dweb:/ipfs/QmZEEpXhfnqtxKXeWoKDK7jXw2LLtHCyWGh8XL8wQKYM2z"
+			]
+		}
+	},
+	"version": 1
+}

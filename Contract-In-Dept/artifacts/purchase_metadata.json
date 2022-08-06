@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "seller",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contract-In-Dept/Functions-Modifiers.sol": "purchase"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contract-In-Dept/Functions-Modifiers.sol": {
+			"keccak256": "0x4e6a9947e21bcc47d4ddac8c804fbd0118546f2cbca1893d3e94c923fb9d9c10",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://75115ac099c7ad8838edb98383bf97731a5a686fa745fd3f99c7f3f1b8cdcd07",
+				"dweb:/ipfs/QmW2gHdMAodZKAg6rq28paFBn1Fwa3J4ZoNXJX97HjB9Y7"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "campaignID",
+						"type": "uint256"
+					}
+				],
+				"name": "checkGoalReach",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "reached",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "campaignID",
+						"type": "uint256"
+					}
+				],
+				"name": "contribute",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "beneficiary",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "goal",
+						"type": "uint256"
+					}
+				],
+				"name": "newCampaign",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "campaignID",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contract-In-Dept/Struct-Types.sol": "Funding"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contract-In-Dept/Struct-Types.sol": {
+			"keccak256": "0x86a9c80ad52cec52ce65cc36019dda764910856926311391d24be6e89edb23e6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5b0bd73b4ab04c56ed7e1410ebbde7c0b0474653172246c3e63fef79fd85f72e",
+				"dweb:/ipfs/QmbLbFS9wXEFHmQbt7LSnZNCZJAKoZ1kTjtYQHVMjoqY1Z"
+			]
+		}
+	},
+	"version": 1
+}
